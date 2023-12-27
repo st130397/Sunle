@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.36d86a23.css",
+    "main.js": "/static/js/main.ffe8f456.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/1.mp3": "/static/media/1.64d75badd359b033baee.mp3",
+    "static/media/4.mp3": "/static/media/4.ff226c0505c6c55c8dbb.mp3",
+    "static/media/3.mp3": "/static/media/3.5f31898645feddcf656a.mp3",
+    "static/media/5.mp3": "/static/media/5.a8c3aa420b3a434e1af3.mp3",
+    "static/media/2.mp3": "/static/media/2.9c3a04a6db64f763445e.mp3",
+    "static/media/9.mp3": "/static/media/9.30ebf3cb37c5745eebf4.mp3",
+    "static/media/6.mp3": "/static/media/6.e1faae33a88333805a1d.mp3",
+    "static/media/7.mp3": "/static/media/7.c045191e1dac0a472e06.mp3",
+    "static/media/8.mp3": "/static/media/8.b5d76624a264d923a122.mp3",
+    "static/media/10.mp3": "/static/media/10.a23300aa4f0492a126fe.mp3",
+    "static/media/1.jpg": "/static/media/1.67a195108abba085c3b4.jpg",
+    "static/media/wallpaper.jpg": "/static/media/wallpaper.55e83c869a29b3a018f8.jpg",
+    "static/media/kids.png": "/static/media/kids.836efd88498e14ebed8e.png",
+    "static/media/background.jpg": "/static/media/background.26f5341e40c8fb208e89.jpg",
+    "static/media/wallpaper1.jpg": "/static/media/wallpaper1.a41a597260fe0eddaeaa.jpg",
+    "static/media/game.jpg": "/static/media/game.949b1c26b06eb58e1af4.jpg",
+    "static/media/om1.ico": "/static/media/om1.a0dccabf8e0a73340176.ico",
+    "static/media/music.jpg": "/static/media/music.1f240b3b2f72a8b9194a.jpg",
+    "static/media/mobile.jpg": "/static/media/mobile.063578d5b6d5ab4155ec.jpg",
+    "static/media/download.jpg": "/static/media/download.63288ed521922d5bff3a.jpg",
+    "static/media/styles.less": "/static/media/styles.9288fdcb0a9da3de39aa.less",
+    "index.html": "/index.html",
+    "main.36d86a23.css.map": "/static/css/main.36d86a23.css.map",
+    "main.ffe8f456.js.map": "/static/js/main.ffe8f456.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36d86a23.css",
+    "static/js/main.ffe8f456.js"
+  ]
+}
