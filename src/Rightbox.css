@@ -1,0 +1,217 @@
+.Right{
+    width: 1060px;
+    z-index: 2;
+    background: #0b1320;
+}
+.Right::before{
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 250px;
+    z-index: -1;
+}
+.Right .RightTop{
+    background: url('./image/download.jpg');
+    padding-bottom: 15px;
+}
+.Right .RightTop nav{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid #fff; */
+    margin: auto;
+    padding: 10px 10px 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, .2);
+}
+.Right .RightTop nav ul{
+    display: flex;
+}
+.Right .RightTop nav ul li{
+    list-style: none;
+    position: relative;
+    font-size: 13px;
+    color: black;
+    margin-right: 25px;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.Right .RightTop nav ul li:hover{
+    color: whitesmoke;
+}
+.Right .RightTop nav ul li:nth-child(1){
+    color: whitesmoke;
+}
+.Right .RightTop nav ul li span{
+    position: absolute;
+    width: 100%;
+    height: 2.5px;
+    background: #36e2ec;
+    bottom: -5px;
+    left: 0;
+    border-radius: 20px;
+}
+.Right .RightTop nav .search{
+    position: relative;
+    width: 40%;
+    padding: 0px 0px 0px 0px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    color: gray;
+}
+.Right .RightTop nav .search::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(185, 185, 185, .1);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+.Right .RightTop nav .search .searchResult{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 20;
+}
+.Right .RightTop nav .search .bi{
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+}
+.Right .RightTop nav .search input{
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0px 0px;
+    color: whitesmoke;
+    font-size: 12px;
+}
+.Right .RightTop nav .user{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid #fff; */
+    border-radius: 50%;
+}
+.Right .RightTop nav .user img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 8px #121213;
+}
+.Right .RightTop .content{
+    width: 90%;
+    height: 30%;
+    /* border: 1px solid #fff; */
+    margin: auto;
+    padding-top: 20px;
+}
+.Right .RightTop .content h1{
+    font-size: 25px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.Right .RightTop .content p{
+    font-size: 11px;
+    font-weight: 400;
+    color: #36e2ec;
+    margin: 5px;
+}
+.Right .RightTop .content .buttons{
+    margin-top: 15px;
+}
+.Right .RightTop .content .buttons button{
+    width: 130px;
+    height: 30px;
+    border: 2px solid #36e2ec;
+    outline: none;
+    border-radius: 20px;
+    background: #5adae0;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.Right .RightTop .content .buttons button:hover{
+    background: none;
+    color: #36e2ec;
+}
+.Right .RightTop .content .buttons button:nth-child(2){
+    background: none;
+    color: #36e2ec;
+}
+.Right .RightTop .content .buttons button:nth-child(2):hover{
+    background: #36e2ec;
+    color: whitesmoke;
+}
+.Right .popularSong{
+    width: 1025px;
+    height: auto;
+    padding-left: 50px;
+    margin-top: 10px;
+    /* border: 1px solid #fff; */
+}
+.Right .popularSong .h4{
+    border-bottom: 1px solid aliceblue;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+}
+.Right .popularSong .h4 .bi{
+    color: #a4a8b4;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.Right .popularSong .h4 .bi:hover{
+    color: whitesmoke;
+}
+.Right .popularSong .popSong{
+    width: 100%;
+    height: 150px;
+    margin-top: 15px;
+    display: flex;
+    /* border: 1px solid #fff; */
+    overflow: auto;
+    scroll-behavior: smooth;
+}
+.Right .popularSong .popSong::-webkit-scrollbar{
+    display: none;
+}
+.Right .popularArtists{
+    width: 1025px;
+    height: auto;
+    padding-left: 50px;
+    /* border: 1px solid #fff; */
+    margin-top: 5px;
+}
+.Right .popularArtists .h4{
+    border-bottom: 1px solid aliceblue;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    justify-content: space-between;
+}
+.Right .popularArtists .h4 .bi{
+    color: #a4a8b4;
+    cursor: pointer;
+    transition: .3s linear;
+}
+.Right .popularArtists .h4 .bi:hover{
+    color: whitesmoke;
+}
+.Right .popularArtists .artistBox{
+    width: 100%;
+    height: 75px;
+    margin-top: 15px;
+    display: flex;
+    /* border: 1px solid #fff; */
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.Right .popularArtists .artistBox::-webkit-scrollbar{
+    display: none;
+}

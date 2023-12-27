@@ -1,0 +1,12 @@
+.Player{
+    background: gray;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px 15px 5px;
+    width: 1335px;
+}
+.Player .Workbox{
+    position: relative;
+    left: -40px;
+    width: 100%;
+}

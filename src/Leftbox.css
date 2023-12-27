@@ -1,0 +1,65 @@
+.left{
+    margin: 0px 5px 0px 10px;
+}
+.left h1{
+    font-size: 20px;
+    margin: 5px 0px 0px 10px;
+    color: aliceblue;
+    font-weight: 500;
+}
+.left .playlist{
+    margin: 20px 0px 0px 20px;
+}
+.left .playlist h4{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    color: #4c5262;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: .3s linear;
+}
+.left .playlist h4:hover{
+    color: whitesmoke;
+}
+.left .playlist h4 span{
+    position: relative;
+    margin-right: 35px;
+}
+.left .playlist h4 span::before{
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border: 2px solid #4c5262;
+    border-radius: 50%;
+    top: -4px;
+    transition: .3s linear;
+}
+.left .playlist h4:hover span::before{
+    border: 2px solid whitesmoke;
+}
+.left .playlist h4 .bi{
+    display: none;
+}
+.left .playlist h4 .active{
+    color: #36e2ec;
+}
+.left .playlist h4 .active span{
+    display: none;
+}
+.left .playlist h4 .active .bi{
+    display: flex;
+    margin-right: 20px;
+}
+.left .boxsong{
+    width: 250px;
+    height: 341px;
+    /* border: 1px solid #fff; */
+    overflow: auto;
+    margin-top: 20px;
+}
+/* .left .boxsong::-webkit-scrollbar{
+    display: none;
+} */
